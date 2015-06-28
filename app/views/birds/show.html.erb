@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Schema:</strong>
+  <%= @bird.schema %>
+</p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @bird.title %>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @bird.description %>
+</p>
+
+<p>
+  <strong>Type:</strong>
+  <%= @bird.type %>
+</p>
+
+<p>
+  <strong>Required:</strong>
+  <%= @bird.required %>
+</p>
+
+<%= link_to 'Edit', edit_bird_path(@bird) %> |
+<%= link_to 'Back', birds_path %>
